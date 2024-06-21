@@ -11,7 +11,7 @@ website:
       - href: "examples.qmd"
         text: "Examples"
   repo-url: https://github.com/flatiron-labs/ds-weekly-drills
-  repo-actions: [issue]
+  repo-actions: [source, issue]
 
 format:
   html:
