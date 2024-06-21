@@ -3,7 +3,7 @@ title: "Quarto Documents"
 description: "This page was created from a .qmd file!"
 author: "Bletchley"
 date: 2024-06-21
-code-fold: true
+code-fold: show
 ---
 
 [Quarto](https://quarto.org/) allows us to add computations from a variety of languages to our markdown-like documents.
@@ -35,8 +35,9 @@ plt.show()
 To see a page created from a native Jupyter Notebook, see [here](jupyter-in-quarto.ipynb)!
 
 ## Observable JS
-We can even run JavaScript:
+We can even run JavaScript and add interactivity:
 ```{ojs}
+//| code-fold: show
 data = d3.csv("https://raw.githubusercontent.com/plotly/datasets/master/mtcars.csv")
 
 Plot.plot({

@@ -7,55 +7,6 @@
     "text": "import pandas as pd\nimport matplotlib.pyplot as plt\n\nmtcars = pd.read_csv(\"https://raw.githubusercontent.com/plotly/datasets/master/mtcars.csv\")\n\nplt.scatter(x=mtcars.wt, y=mtcars.mpg)\nplt.title(\"Miles per Gallon vs Weight\")\nplt.show()\n\n\n\n\n\n\n\n\nThe heavier the vehicle, the worse the gas mileage!"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Data Science Weekly Drills",
-    "section": "",
-    "text": "Data newcomers, hobbyists, and professionals are encouraged to create and share a data visualization, model, app, or other data-related output based on a weekly topic or shared dataset posted in [Discord channel], on [bletchley.org], and [social media]. Our goal is to foster our community to share tips, tricks, assistance, and inspiration for creating data output."
-  },
-  {
-    "objectID": "index.html#who-what-when-where-why",
-    "href": "index.html#who-what-when-where-why",
-    "title": "Data Science Weekly Drills",
-    "section": "",
-    "text": "Data newcomers, hobbyists, and professionals are encouraged to create and share a data visualization, model, app, or other data-related output based on a weekly topic or shared dataset posted in [Discord channel], on [bletchley.org], and [social media]. Our goal is to foster our community to share tips, tricks, assistance, and inspiration for creating data output."
-  },
-  {
-    "objectID": "index.html#how",
-    "href": "index.html#how",
-    "title": "Data Science Weekly Drills",
-    "section": "How",
-    "text": "How\n\nEach week a topic or dataset will be shared [Discord channel], on [bletchley.org], and [social media]\n\nFind a dataset related to the topic of the week\nIf a dataset is provided, download it\n\nExplore the data and create a visualization, model, app, or other data-related output, using the tool of your choice\nShare your creation\n\nThe goal is to practice and improve, so even a simple graph that shows something interesting or leverages a new package is worth sharing!\nPaste a screenshot of your creation to [Discord channel] using the hashtags [insert hashtags]\nWe also encourage you to share how you created it and link to any related code, notebook, or live output so others can learn and find inspiration from you. See here for a few examples.\n\nPrizes, badges, social media shoutouts for:\n\nBest data visualization\nMost interesting insight\nMost innovative creation"
-  },
-  {
-    "objectID": "examples.html",
-    "href": "examples.html",
-    "title": "Examples",
-    "section": "",
-    "text": "Assume the popular “mtcars” dataset was shared for the weekly data science drill. Below are some ways you could visualize and share your work so others can see how you did it."
-  },
-  {
-    "objectID": "examples.html#jupyter-notebooks",
-    "href": "examples.html#jupyter-notebooks",
-    "title": "Examples",
-    "section": "Jupyter Notebooks",
-    "text": "Jupyter Notebooks\nSimply link to it on GitHub"
-  },
-  {
-    "objectID": "examples.html#quarto",
-    "href": "examples.html#quarto",
-    "title": "Examples",
-    "section": "Quarto",
-    "text": "Quarto\nUse Quarto and GitHub pages to render your work as a static site (like this one!)\n\n\n\n\n\n\n\n\nQuarto Documents\n\n\nThis page was created from a .qmd file!\n\n\n\nBletchley\n\n\nJun 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nJupyter Notebooks in Quarto\n\n\nThis page was created from a Jupyter notebook!\n\n\n\nBletchley\n\n\nJun 21, 2024\n\n\n\n\n\n\n\n\nNo matching items\n\n\nSee documentation for other ways to publish"
-  },
-  {
-    "objectID": "examples.html#observable",
-    "href": "examples.html#observable",
-    "title": "Examples",
-    "section": "Observable",
-    "text": "Observable\nIf JavaScript is your thing, try Observable notebooks or use ojs computations in Quarto"
-  },
-  {
     "objectID": "examples/quarto-doc.html",
     "href": "examples/quarto-doc.html",
     "title": "Quarto Documents",
@@ -81,6 +32,55 @@
     "href": "examples/quarto-doc.html#observable-js",
     "title": "Quarto Documents",
     "section": "Observable JS",
-    "text": "Observable JS\nWe can even run JavaScript:\n\n\nCode\ndata = d3.csv(\"https://raw.githubusercontent.com/plotly/datasets/master/mtcars.csv\")\n\nPlot.plot({\n  subtitle: \"Miles per Gallon vs Weight\",\n  height: 300,\n  x: {domain: [1,5]},\n  y: {domain: [10,35]},\n  marks: [\n    Plot.ruleX([1]),\n    Plot.ruleY([10]),\n    Plot.dot(data, {x: \"wt\", y: \"mpg\", channels: {name: \"manufacturer\"}, tip: true})\n  ]\n});"
+    "text": "Observable JS\nWe can even run JavaScript and add interactivity:\n\n\nCode\ndata = d3.csv(\"https://raw.githubusercontent.com/plotly/datasets/master/mtcars.csv\")\n\nPlot.plot({\n  subtitle: \"Miles per Gallon vs Weight\",\n  height: 300,\n  x: {domain: [1,5]},\n  y: {domain: [10,35]},\n  marks: [\n    Plot.ruleX([1]),\n    Plot.ruleY([10]),\n    Plot.dot(data, {x: \"wt\", y: \"mpg\", channels: {name: \"manufacturer\"}, tip: true})\n  ]\n});"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Data Science Weekly Drills",
+    "section": "",
+    "text": "Data newcomers, hobbyists, and professionals are encouraged to create and share a data visualization, model, app, or other data-related output based on a weekly topic or shared dataset posted in [Discord channel], on [bletchley.org], and [social media]. Our goal is to foster our community to share tips, tricks, assistance, and inspiration for creating data output."
+  },
+  {
+    "objectID": "index.html#who-what-when-where-why",
+    "href": "index.html#who-what-when-where-why",
+    "title": "Data Science Weekly Drills",
+    "section": "",
+    "text": "Data newcomers, hobbyists, and professionals are encouraged to create and share a data visualization, model, app, or other data-related output based on a weekly topic or shared dataset posted in [Discord channel], on [bletchley.org], and [social media]. Our goal is to foster our community to share tips, tricks, assistance, and inspiration for creating data output."
+  },
+  {
+    "objectID": "index.html#how",
+    "href": "index.html#how",
+    "title": "Data Science Weekly Drills",
+    "section": "How",
+    "text": "How\n\nEach week a topic or dataset will be shared [Discord channel], on [bletchley.org], and [social media]\n\nFind a dataset related to the topic of the week\nIf a dataset is provided, download it\n\nExplore the data and create a visualization, model, app, or other data-related output, using the tool of your choice\nShare your creation\n\nThe goal is to practice and improve, so even a simple graph that shows something interesting or leverages a new package is worth sharing!\nPaste a screenshot of your creation to [Discord channel] using the hashtags [insert hashtags]\nWe also encourage you to share how you created it and link to any related code, notebook, or live output so others can learn and find inspiration from you. See here for a few examples.\n\nPrizes, badges, social media shoutouts for:\n\nBest data visualization\nMost interesting insight\nMost innovative creation"
+  },
+  {
+    "objectID": "examples/index.html",
+    "href": "examples/index.html",
+    "title": "Examples",
+    "section": "",
+    "text": "Assume the popular “mtcars” dataset was shared for the weekly data science drill. Below are some ways you could visualize and share your work so others can see how you did it."
+  },
+  {
+    "objectID": "examples/index.html#jupyter-notebooks",
+    "href": "examples/index.html#jupyter-notebooks",
+    "title": "Examples",
+    "section": "Jupyter Notebooks",
+    "text": "Jupyter Notebooks\nSimply link to it on GitHub"
+  },
+  {
+    "objectID": "examples/index.html#quarto",
+    "href": "examples/index.html#quarto",
+    "title": "Examples",
+    "section": "Quarto",
+    "text": "Quarto\nUse Quarto and GitHub pages to render your work as a static site (like this one!)\n\n\n\n\n\n\n\n\nQuarto Documents\n\n\nThis page was created from a .qmd file!\n\n\n\nBletchley\n\n\nJun 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nJupyter Notebooks in Quarto\n\n\nThis page was created from a Jupyter notebook!\n\n\n\nBletchley\n\n\nJun 21, 2024\n\n\n\n\n\n\n\n\nNo matching items\n\n\nSee documentation for other ways to publish"
+  },
+  {
+    "objectID": "examples/index.html#observable",
+    "href": "examples/index.html#observable",
+    "title": "Examples",
+    "section": "Observable",
+    "text": "Observable\nIf JavaScript is your thing, try Observable notebooks or use ojs computations in Quarto"
   }
 ]

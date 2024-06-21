@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/examples.html",
+    "listing": "/examples/index.html",
     "items": [
       "/examples/quarto-doc.html",
       "/examples/jupyter-in-quarto.html"

@@ -8,7 +8,7 @@ website:
     left:
       - href: "index.qmd"
         text: "About"
-      - href: "examples.qmd"
+      - href: "examples/"
         text: "Examples"
   repo-url: https://github.com/flatiron-labs/ds-weekly-drills
   repo-actions: [source, issue]
