@@ -1,4 +1,10 @@
-# Data Science Weekly Drills
+---
+title: "Data Science Weekly Drills"
+format:
+  html:
+    toc: true
+---
+
 ## Who, What, When, Where, Why
 Data newcomers, hobbyists, and professionals are encouraged to create and share a data visualization, model, app, or other data-related output based on a weekly topic or shared dataset posted in [Discord channel], on [bletchley.org], and [social media]. Our goal is to foster our community to share tips, tricks, assistance, and inspiration for creating data output.
 
@@ -15,3 +21,14 @@ Data newcomers, hobbyists, and professionals are encouraged to create and share 
     - Best data visualization
     - Most interesting insight
     - Most innovative creation
+
+## [Examples](/examples.html)
+
+### Jupyter Notebook
+Simply [render on GitHub](https://github.com/flatiron-labs/ds-weekly-drills/blob/main/quarto/examples/jupyter-in-quarto.ipynb)
+
+### Quarto
+Use [Quarto](https://quarto.org) and GitHub pages to render your work as a [static site](https://flatiron-labs.github.io/ds-weekly-drills/) (like this one!). See [documentation](https://quarto.org/docs/publishing/) for other ways to publish.
+
+### Observable
+If JavaScript is your thing, try [Observable notebooks](https://observablehq.com/@bletchleyinstitute-ws/observablejs-example)
