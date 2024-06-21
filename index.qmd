@@ -1,8 +1,5 @@
 ---
 title: "Data Science Weekly Drills"
-format:
-  html:
-    toc: true
 ---
 
 ## Who, What, When, Where, Why
@@ -16,19 +13,8 @@ Data newcomers, hobbyists, and professionals are encouraged to create and share 
 3. Share your creation
     - The goal is to practice and improve, so even a simple graph that shows something interesting or leverages a new package is worth sharing!
     - Paste a screenshot of your creation to [Discord channel] using the hashtags [insert hashtags]
-    - We also encourage you to share how you created it and link to any related code, notebook, or live output so others can learn and find inspiration from you. See below for a few examples.
+    - We also encourage you to share how you created it and link to any related code, notebook, or live output so others can learn and find inspiration from you. See [here](/examples.html) for a few examples.
 4. <TBD>Prizes, badges, social media shoutouts for:
     - Best data visualization
     - Most interesting insight
     - Most innovative creation
-
-## [Examples](/examples.html)
-
-### Jupyter Notebook
-Simply [render on GitHub](https://github.com/flatiron-labs/ds-weekly-drills/blob/main/quarto/examples/jupyter-in-quarto.ipynb)
-
-### Quarto
-Use [Quarto](https://quarto.org) and GitHub pages to render your work as a [static site](https://flatiron-labs.github.io/ds-weekly-drills/) (like this one!). See [documentation](https://quarto.org/docs/publishing/) for other ways to publish.
-
-### Observable
-If JavaScript is your thing, try [Observable notebooks](https://observablehq.com/@bletchleyinstitute-ws/observablejs-example)

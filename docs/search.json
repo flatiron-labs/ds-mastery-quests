@@ -67,7 +67,7 @@
     "href": "index.html#how",
     "title": "Data Science Weekly Drills",
     "section": "How",
-    "text": "How\n\nEach week a topic or dataset will be shared [Discord channel], on [bletchley.org], and [social media]\n\nFind a dataset related to the topic of the week\nIf a dataset is provided, download it\n\nExplore the data and create a visualization, model, app, or other data-related output, using the tool of your choice\nShare your creation\n\nThe goal is to practice and improve, so even a simple graph that shows something interesting or leverages a new package is worth sharing!\nPaste a screenshot of your creation to [Discord channel] using the hashtags [insert hashtags]\nWe also encourage you to share how you created it and link to any related code, notebook, or live output so others can learn and find inspiration from you. See below for a few examples.\n\nPrizes, badges, social media shoutouts for:\n\nBest data visualization\nMost interesting insight\nMost innovative creation"
+    "text": "How\n\nEach week a topic or dataset will be shared [Discord channel], on [bletchley.org], and [social media]\n\nFind a dataset related to the topic of the week\nIf a dataset is provided, download it\n\nExplore the data and create a visualization, model, app, or other data-related output, using the tool of your choice\nShare your creation\n\nThe goal is to practice and improve, so even a simple graph that shows something interesting or leverages a new package is worth sharing!\nPaste a screenshot of your creation to [Discord channel] using the hashtags [insert hashtags]\nWe also encourage you to share how you created it and link to any related code, notebook, or live output so others can learn and find inspiration from you. See here for a few examples.\n\nPrizes, badges, social media shoutouts for:\n\nBest data visualization\nMost interesting insight\nMost innovative creation"
   },
   {
     "objectID": "index.html#examples",
@@ -81,6 +81,27 @@
     "href": "examples.html",
     "title": "Examples",
     "section": "",
-    "text": "Assume the popular “mtcars” dataset was shared for the weekly data science drill. Below are some ways you could visualize and share your work so others can see how you did it.\n\n\n\n\n\n\n\n\n\n\nQuarto Documents\n\n\n\n\n\nThis page was created from a .qmd file!\n\n\n\n\n\nJun 21, 2024\n\n\nBletchley\n\n\n\n\n\n\n\n\n\n\n\n\nJupyter Notebooks in Quarto\n\n\n\n\n\nThis page was created from a Jupyter notebook!\n\n\n\n\n\nJun 21, 2024\n\n\nBletchley\n\n\n\n\n\n\nNo matching items"
+    "text": "Assume the popular “mtcars” dataset was shared for the weekly data science drill. Below are some ways you could visualize and share your work so others can see how you did it."
+  },
+  {
+    "objectID": "examples.html#jupyter-notebooks",
+    "href": "examples.html#jupyter-notebooks",
+    "title": "Examples",
+    "section": "Jupyter Notebooks",
+    "text": "Jupyter Notebooks\nSimply link to it on GitHub"
+  },
+  {
+    "objectID": "examples.html#quarto",
+    "href": "examples.html#quarto",
+    "title": "Examples",
+    "section": "Quarto",
+    "text": "Quarto\nUse Quarto and GitHub pages to render your work as a static site (like this one!)\n\n\n\n\n\n\n\n\nQuarto Documents\n\n\nThis page was created from a .qmd file!\n\n\n\nBletchley\n\n\nJun 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nJupyter Notebooks in Quarto\n\n\nThis page was created from a Jupyter notebook!\n\n\n\nBletchley\n\n\nJun 21, 2024\n\n\n\n\n\n\n\n\nNo matching items\n\n\nSee documentation for other ways to publish"
+  },
+  {
+    "objectID": "examples.html#observable",
+    "href": "examples.html#observable",
+    "title": "Examples",
+    "section": "Observable",
+    "text": "Observable\nIf JavaScript is your thing, try Observable notebooks"
   }
 ]
