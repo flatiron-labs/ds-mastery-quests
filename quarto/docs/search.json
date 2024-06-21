@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "jupyter-in-quarto.html",
+    "href": "jupyter-in-quarto.html",
+    "title": "Jupyter Notebooks in Quarto",
+    "section": "",
+    "text": "import pandas as pd\nimport matplotlib.pyplot as plt\n\nmtcars = pd.read_csv(\"https://raw.githubusercontent.com/plotly/datasets/master/mtcars.csv\")\n\n\nplt.scatter(x=mtcars.wt, y=mtcars.mpg)\nplt.title(\"Miles per Gallon vs Weight\")\nplt.show()\n\n\n\n\n\n\n\n\nThe heavier the vehicle, the worse the gas mileage!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Examples",
+    "section": "",
+    "text": "Assume the popular “mtcars” dataset was shared for the weekly data science drill. Below are some ways you could visualize and share your work so others can see how you did it.\n\n\n\n\n\n\n\n\n\n\nQuarto Documents\n\n\n\n\n\nThis page was created from a .qmd file!\n\n\n\n\n\nJun 21, 2024\n\n\nBletchley\n\n\n\n\n\n\n\n\n\n\n\n\nJupyter Notebooks in Quarto\n\n\n\n\n\nThis page was created from a Jupyter notebook!\n\n\n\n\n\nJun 21, 2024\n\n\nBletchley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "example.html",
+    "href": "example.html",
+    "title": "Quarto Documents",
+    "section": "",
+    "text": "Quarto allows us to add computations from a variety of languages to our markdown-like documents.\nBelow is an R code block followed by its output:\n\nlibrary(ggplot2)\n\nmtcars |&gt;\n    ggplot(aes(x = wt, y = mpg)) +\n    geom_point() +\n    labs(title = \"Miles per Gallon vs Weight\")\n\n\n\n\n\n\n\n\nBelow is a Python code block followed by its output:\n\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\nmtcars = pd.read_csv(\"https://raw.githubusercontent.com/plotly/datasets/master/mtcars.csv\")\n\nplt.scatter(x=mtcars.wt, y=mtcars.mpg)\nplt.title(\"Miles per Gallon vs Weight\")\nplt.show()"
+  },
+  {
+    "objectID": "examples/example.html",
+    "href": "examples/example.html",
+    "title": "Quarto Documents",
+    "section": "",
+    "text": "Quarto allows us to add computations from a variety of languages to our markdown-like documents.\nBelow is an R code block followed by its output:\n\nlibrary(ggplot2)\n\nmtcars |&gt;\n    ggplot(aes(x = wt, y = mpg)) +\n    geom_point() +\n    labs(title = \"Miles per Gallon vs Weight\")\n\n\n\n\n\n\n\n\nBelow is a Python code block followed by its output:\n\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\nmtcars = pd.read_csv(\"https://raw.githubusercontent.com/plotly/datasets/master/mtcars.csv\")\n\nplt.scatter(x=mtcars.wt, y=mtcars.mpg)\nplt.title(\"Miles per Gallon vs Weight\")\nplt.show()\n\n\n\n\n\n\n\n\nTo see a page created from a native Jupyter Notebook, see here!"
+  },
+  {
+    "objectID": "examples/jupyter-in-quarto.html",
+    "href": "examples/jupyter-in-quarto.html",
+    "title": "Jupyter Notebooks in Quarto",
+    "section": "",
+    "text": "import pandas as pd\nimport matplotlib.pyplot as plt\n\nmtcars = pd.read_csv(\"https://raw.githubusercontent.com/plotly/datasets/master/mtcars.csv\")\n\nplt.scatter(x=mtcars.wt, y=mtcars.mpg)\nplt.title(\"Miles per Gallon vs Weight\")\nplt.show()\n\n\n\n\n\n\n\n\nThe heavier the vehicle, the worse the gas mileage!"
+  }
+]

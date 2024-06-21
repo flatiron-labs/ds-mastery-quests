@@ -1,0 +1,14 @@
+---
+title: "Examples"
+listing:
+  id: listings
+  contents: examples/
+  sort: "title desc"
+  type: default
+---
+
+Assume the popular “mtcars” dataset was shared for the weekly data science drill. Below are some ways you could visualize and share your work so others can see how you did it.
+
+
+::: {#listings}
+:::
