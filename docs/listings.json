@@ -2,7 +2,7 @@
   {
     "listing": "/examples.html",
     "items": [
-      "/examples/example.html",
+      "/examples/quarto-doc.html",
       "/examples/jupyter-in-quarto.html"
     ]
   }

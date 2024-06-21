@@ -21,6 +21,6 @@ Use [Quarto](https://quarto.org){target="_blank"} and GitHub pages to render you
 See [documentation](https://quarto.org/docs/publishing/){target="_blank"} for other ways to publish
 
 ## Observable
-If JavaScript is your thing, try [Observable notebooks](https://observablehq.com/@bletchleyinstitute-ws/observablejs-example){target="_blank"}
+If JavaScript is your thing, try [Observable notebooks](https://observablehq.com/@bletchleyinstitute-ws/observablejs-example){target="_blank"} or use [`ojs` computations in Quarto](examples/quarto-doc.html#observable-js)
 
 
