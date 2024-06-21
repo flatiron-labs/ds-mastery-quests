@@ -1,11 +1,9 @@
----
-title: "Quarto Example"
-format: gfm
----
+# Quarto Example
+
 
 Below is an R code block
 
-```{r}
+``` r
 library(ggplot2)
 
 mtcars |>
@@ -13,5 +11,7 @@ mtcars |>
     geom_point() +
     labs(title = "Miles per Gallon vs Weight")
 ```
+
+![](example_files/figure-commonmark/unnamed-chunk-1-1.png)
 
 The heavier a vehicle, the worse its gas mileage!
