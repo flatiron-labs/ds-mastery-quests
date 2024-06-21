@@ -10,7 +10,7 @@ listing:
 Assume the popular “mtcars” dataset was shared for the weekly data science drill. Below are some ways you could visualize and share your work so others can see how you did it.
 
 ## Jupyter Notebooks
-Simply [link to it on GitHub](https://github.com/flatiron-labs/ds-weekly-drills/blob/main/quarto/examples/jupyter-in-quarto.ipynb){target="_blank"}
+Simply [link to it on GitHub](https://github.com/flatiron-labs/ds-weekly-drills/blob/main/examples/jupyter-in-quarto.ipynb){target="_blank"}
 
 ## Quarto
 Use [Quarto](https://quarto.org){target="_blank"} and GitHub pages to render your work as a static site (like this one!)
