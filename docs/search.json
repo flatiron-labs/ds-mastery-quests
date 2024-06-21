@@ -88,14 +88,14 @@
     "href": "examples.html#jupyter-notebooks",
     "title": "Examples",
     "section": "Jupyter Notebooks",
-    "text": "Jupyter Notebooks\nSimply link to it on GitHub"
+    "text": "Jupyter Notebooks\nSimply link to it on GitHub{:target=“_blank”}"
   },
   {
     "objectID": "examples.html#quarto",
     "href": "examples.html#quarto",
     "title": "Examples",
     "section": "Quarto",
-    "text": "Quarto\nUse Quarto and GitHub pages to render your work as a static site (like this one!)\n\n\n\n\n\n\n\n\nQuarto Documents\n\n\nThis page was created from a .qmd file!\n\n\n\nBletchley\n\n\nJun 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nJupyter Notebooks in Quarto\n\n\nThis page was created from a Jupyter notebook!\n\n\n\nBletchley\n\n\nJun 21, 2024\n\n\n\n\n\n\n\n\nNo matching items\n\n\nSee documentation for other ways to publish"
+    "text": "Quarto\nUse Quarto{:target=“_blank”} and GitHub pages to render your work as a static site (like this one!)\n\n\n\n\n\n\n\n\nQuarto Documents\n\n\nThis page was created from a .qmd file!\n\n\n\nBletchley\n\n\nJun 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nJupyter Notebooks in Quarto\n\n\nThis page was created from a Jupyter notebook!\n\n\n\nBletchley\n\n\nJun 21, 2024\n\n\n\n\n\n\n\n\nNo matching items\n\n\nSee documentation{:target=“_blank”} for other ways to publish"
   },
   {
     "objectID": "examples.html#observable",
