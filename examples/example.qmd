@@ -1,0 +1,34 @@
+---
+title: "Quarto Documents"
+description: "This page was created from a .qmd file!"
+author: "Bletchley"
+date: 2024-06-21
+format: html
+---
+
+[Quarto](https://quarto.org/) allows us to add computations from a variety of languages to our markdown-like documents.
+
+Below is an R code block followed by its output:
+```{r}
+library(ggplot2)
+
+mtcars |>
+    ggplot(aes(x = wt, y = mpg)) +
+    geom_point() +
+    labs(title = "Miles per Gallon vs Weight")
+```
+
+
+Below is a Python code block followed by its output:
+```{python}
+import pandas as pd
+import matplotlib.pyplot as plt
+
+mtcars = pd.read_csv("https://raw.githubusercontent.com/plotly/datasets/master/mtcars.csv")
+
+plt.scatter(x=mtcars.wt, y=mtcars.mpg)
+plt.title("Miles per Gallon vs Weight")
+plt.show()
+```
+
+To see a page created from a native Jupyter Notebook, see [here](jupyter-in-quarto.ipynb)!

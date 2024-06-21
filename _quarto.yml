@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Bletchley Weekly Drills"
+  navbar:
+    left:
+      - href: "index.qmd"
+        text: "About"
+      - href: "examples.qmd"
+        text: "Examples"
+  repo-url: https://github.com/flatiron-labs/ds-weekly-drills
+  repo-actions: [issue]
+
+format:
+  html:
+    theme: default
+    toc: true
