@@ -35,6 +35,7 @@ plt.show()
 To see a page created from a native Jupyter Notebook, see [here](jupyter-in-quarto.ipynb)!
 
 ## Observable JS
+We can even run JavaScript:
 ```{ojs}
 data = d3.csv("https://raw.githubusercontent.com/plotly/datasets/master/mtcars.csv")
 

@@ -81,6 +81,6 @@
     "href": "examples/quarto-doc.html#observable-js",
     "title": "Quarto Documents",
     "section": "Observable JS",
-    "text": "Observable JS\n\n\nCode\ndata = d3.csv(\"https://raw.githubusercontent.com/plotly/datasets/master/mtcars.csv\")\n\nPlot.plot({\n  subtitle: \"Miles per Gallon vs Weight\",\n  height: 300,\n  x: {domain: [1,5]},\n  y: {domain: [10,35]},\n  marks: [\n    Plot.ruleX([1]),\n    Plot.ruleY([10]),\n    Plot.dot(data, {x: \"wt\", y: \"mpg\", channels: {name: \"manufacturer\"}, tip: true})\n  ]\n});"
+    "text": "Observable JS\nWe can even run JavaScript:\n\n\nCode\ndata = d3.csv(\"https://raw.githubusercontent.com/plotly/datasets/master/mtcars.csv\")\n\nPlot.plot({\n  subtitle: \"Miles per Gallon vs Weight\",\n  height: 300,\n  x: {domain: [1,5]},\n  y: {domain: [10,35]},\n  marks: [\n    Plot.ruleX([1]),\n    Plot.ruleY([10]),\n    Plot.dot(data, {x: \"wt\", y: \"mpg\", channels: {name: \"manufacturer\"}, tip: true})\n  ]\n});"
   }
 ]
