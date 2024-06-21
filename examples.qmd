@@ -13,7 +13,7 @@ Assume the popular “mtcars” dataset was shared for the weekly data science d
 Simply [link to it on GitHub](https://github.com/flatiron-labs/ds-weekly-drills/blob/main/quarto/examples/jupyter-in-quarto.ipynb){target="_blank"}
 
 ## Quarto
-Use [Quarto](https://quarto.org){:target="_blank"} and GitHub pages to render your work as a static site (like this one!)
+Use [Quarto](https://quarto.org){target="_blank"} and GitHub pages to render your work as a static site (like this one!)
 
 ::: {#listings}
 :::
