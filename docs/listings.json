@@ -1,19 +1,5 @@
 [
   {
-    "listing": "/index.html",
-    "items": [
-      "/examples/example.html",
-      "/examples/jupyter-in-quarto.html"
-    ]
-  },
-  {
-    "listing": "/about.html",
-    "items": [
-      "/examples/example.html",
-      "/examples/jupyter-in-quarto.html"
-    ]
-  },
-  {
     "listing": "/examples.html",
     "items": [
       "/examples/example.html",

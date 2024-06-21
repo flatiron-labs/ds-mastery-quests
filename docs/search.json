@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "jupyter/example.html",
-    "href": "jupyter/example.html",
-    "title": "Jupyter Notebook Example",
+    "objectID": "examples/jupyter-in-quarto.html",
+    "href": "examples/jupyter-in-quarto.html",
+    "title": "Jupyter Notebooks in Quarto",
     "section": "",
-    "text": "import pandas as pd\nimport matplotlib.pyplot as plt\n\nmtcars = pd.read_csv(\"https://raw.githubusercontent.com/plotly/datasets/master/mtcars.csv\")\n\n\nplt.scatter(x=mtcars.wt, y=mtcars.mpg)\nplt.title(\"Miles per Gallon vs Weight\")\nplt.show()\n\n\n\n\n\n\n\n\nThe heavier the vehicle, the worse the gas mileage!"
-  },
-  {
-    "objectID": "examples/example.html",
-    "href": "examples/example.html",
-    "title": "Quarto Documents",
-    "section": "",
-    "text": "Quarto allows us to add computations from a variety of languages to our markdown-like documents.\nBelow is an R code block followed by its output:\n\nlibrary(ggplot2)\n\nmtcars |&gt;\n    ggplot(aes(x = wt, y = mpg)) +\n    geom_point() +\n    labs(title = \"Miles per Gallon vs Weight\")\n\n\n\n\n\n\n\n\nBelow is a Python code block followed by its output:\n\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\nmtcars = pd.read_csv(\"https://raw.githubusercontent.com/plotly/datasets/master/mtcars.csv\")\n\nplt.scatter(x=mtcars.wt, y=mtcars.mpg)\nplt.title(\"Miles per Gallon vs Weight\")\nplt.show()\n\n\n\n\n\n\n\n\nTo see a page created from a native Jupyter Notebook, see here!"
+    "text": "import pandas as pd\nimport matplotlib.pyplot as plt\n\nmtcars = pd.read_csv(\"https://raw.githubusercontent.com/plotly/datasets/master/mtcars.csv\")\n\nplt.scatter(x=mtcars.wt, y=mtcars.mpg)\nplt.title(\"Miles per Gallon vs Weight\")\nplt.show()\n\n\n\n\n\n\n\n\nThe heavier the vehicle, the worse the gas mileage!"
   },
   {
     "objectID": "index.html",
@@ -19,41 +12,6 @@
     "title": "Data Science Weekly Drills",
     "section": "",
     "text": "Data newcomers, hobbyists, and professionals are encouraged to create and share a data visualization, model, app, or other data-related output based on a weekly topic or shared dataset posted in [Discord channel], on [bletchley.org], and [social media]. Our goal is to foster our community to share tips, tricks, assistance, and inspiration for creating data output."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Examples",
-    "section": "",
-    "text": "Assume the popular “mtcars” dataset was shared for the weekly data science drill. Below are some ways you could visualize and share your work so others can see how you did it.\n\n\n\n\n\n\n\n\n\n\nQuarto Documents\n\n\n\n\n\nThis page was created from a .qmd file!\n\n\n\n\n\nJun 21, 2024\n\n\nBletchley\n\n\n\n\n\n\n\n\n\n\n\n\nJupyter Notebooks in Quarto\n\n\n\n\n\nThis page was created from a Jupyter notebook!\n\n\n\n\n\nJun 21, 2024\n\n\nBletchley\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html#who-what-when-where-why",
-    "href": "about.html#who-what-when-where-why",
-    "title": "Examples",
-    "section": "",
-    "text": "Data newcomers, hobbyists, and professionals are encouraged to create and share a data visualization, model, app, or other data-related output based on a weekly topic or shared dataset posted in [Discord channel], on [bletchley.org], and [social media]. Our goal is to foster our community to share tips, tricks, assistance, and inspiration for creating data output."
-  },
-  {
-    "objectID": "about.html#how",
-    "href": "about.html#how",
-    "title": "Examples",
-    "section": "",
-    "text": "Each week a topic or dataset will be shared [Discord channel], on [bletchley.org], and [social media]\n\nFind a dataset related to the topic of the week\nIf a dataset is provided, download it\n\nExplore the data and create a visualization, model, app, or other data-related output, using the tool of your choice\nShare your creation\n\nThe goal is to practice and improve, so even a simple graph that shows something interesting or leverages a new package is worth sharing!\nPaste a screenshot of your creation to [Discord channel] using the hashtags [insert hashtags]\nWe also encourage you to share how you created it and link to any related code, notebook, or live output so others can learn and find inspiration from you. See below for a few examples.\n\nPrizes, badges, social media shoutouts for:\n\nBest data visualization\nMost interesting insight\nMost innovative creation"
-  },
-  {
-    "objectID": "about.html#examples",
-    "href": "about.html#examples",
-    "title": "Examples",
-    "section": "",
-    "text": "Assume the popular “mtcars” dataset was shared for the weekly data science drill. Below are some ways you could visualize and share your work so others can see how you did it.\n\n\nRender on GitHub\n\n\n\nRender as webpage via GitHub Pages. See documentation for other ways to publish.\n\n\n\nIf JavaScript is your thing, try Observable notebooks"
-  },
-  {
-    "objectID": "examples/jupyter-in-quarto.html",
-    "href": "examples/jupyter-in-quarto.html",
-    "title": "Jupyter Notebooks in Quarto",
-    "section": "",
-    "text": "import pandas as pd\nimport matplotlib.pyplot as plt\n\nmtcars = pd.read_csv(\"https://raw.githubusercontent.com/plotly/datasets/master/mtcars.csv\")\n\nplt.scatter(x=mtcars.wt, y=mtcars.mpg)\nplt.title(\"Miles per Gallon vs Weight\")\nplt.show()\n\n\n\n\n\n\n\n\nThe heavier the vehicle, the worse the gas mileage!"
   },
   {
     "objectID": "index.html#who-what-when-where-why",
@@ -68,13 +26,6 @@
     "title": "Data Science Weekly Drills",
     "section": "How",
     "text": "How\n\nEach week a topic or dataset will be shared [Discord channel], on [bletchley.org], and [social media]\n\nFind a dataset related to the topic of the week\nIf a dataset is provided, download it\n\nExplore the data and create a visualization, model, app, or other data-related output, using the tool of your choice\nShare your creation\n\nThe goal is to practice and improve, so even a simple graph that shows something interesting or leverages a new package is worth sharing!\nPaste a screenshot of your creation to [Discord channel] using the hashtags [insert hashtags]\nWe also encourage you to share how you created it and link to any related code, notebook, or live output so others can learn and find inspiration from you. See here for a few examples.\n\nPrizes, badges, social media shoutouts for:\n\nBest data visualization\nMost interesting insight\nMost innovative creation"
-  },
-  {
-    "objectID": "index.html#examples",
-    "href": "index.html#examples",
-    "title": "Data Science Weekly Drills",
-    "section": "Examples",
-    "text": "Examples\n\nJupyter Notebook\nSimply render on GitHub\n\n\nQuarto\nUse Quarto and GitHub pages to render your work as a static site (like this one!). See documentation for other ways to publish.\n\n\nObservable\nIf JavaScript is your thing, try Observable notebooks"
   },
   {
     "objectID": "examples.html",
@@ -103,5 +54,12 @@
     "title": "Examples",
     "section": "Observable",
     "text": "Observable\nIf JavaScript is your thing, try Observable notebooks"
+  },
+  {
+    "objectID": "examples/example.html",
+    "href": "examples/example.html",
+    "title": "Quarto Documents",
+    "section": "",
+    "text": "Quarto allows us to add computations from a variety of languages to our markdown-like documents.\nBelow is an R code block followed by its output:\n\nlibrary(ggplot2)\n\nmtcars |&gt;\n    ggplot(aes(x = wt, y = mpg)) +\n    geom_point() +\n    labs(title = \"Miles per Gallon vs Weight\")\n\n\n\n\n\n\n\n\nBelow is a Python code block followed by its output:\n\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\nmtcars = pd.read_csv(\"https://raw.githubusercontent.com/plotly/datasets/master/mtcars.csv\")\n\nplt.scatter(x=mtcars.wt, y=mtcars.mpg)\nplt.title(\"Miles per Gallon vs Weight\")\nplt.show()\n\n\n\n\n\n\n\n\nTo see a page created from a native Jupyter Notebook, see here!"
   }
 ]
