@@ -1,0 +1,17 @@
+---
+title: "Quarto Example"
+format: html
+---
+
+Below is an R code block
+
+```{r}
+library(ggplot2)
+
+mtcars |>
+    ggplot(aes(x = wt, y = mpg)) +
+    geom_point() +
+    labs(title = "Miles per Gallon vs Weight")
+```
+
+The heaver a vehicle, the worse its gas mileage!
