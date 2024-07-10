@@ -3,17 +3,23 @@ project:
   output-dir: docs
 
 website:
-  title: "Bletchley Weekly Drills"
+  title: "Bletchley Mastery Quests"
   navbar:
     left:
       - href: "index.qmd"
         text: "About"
-      - href: "examples/"
+      - href: "schedule/index.qmd"
+        text: "Schedule"
+      - href: "examples/index.qmd"
         text: "Examples"
-  repo-url: https://github.com/flatiron-labs/ds-weekly-drills
+  repo-url: https://github.com/flatiron-labs/ds-mastery-quests
   repo-actions: [source, issue]
+  favicon: favicon.png
 
 format:
   html:
-    theme: default
+    theme: 
+      - flatly
+      - styles.scss
+    page-layout: full
     toc: true

@@ -35,32 +35,81 @@
     "text": "Observable JS\nWe can even run JavaScript and add interactivity:\n\n\nCode\ndata = d3.csv(\"https://raw.githubusercontent.com/plotly/datasets/master/mtcars.csv\")\n\nPlot.plot({\n  subtitle: \"Miles per Gallon vs Weight\",\n  height: 300,\n  x: {domain: [1,5]},\n  y: {domain: [10,35]},\n  marks: [\n    Plot.ruleX([1]),\n    Plot.ruleY([10]),\n    Plot.dot(data, {x: \"wt\", y: \"mpg\", channels: {name: \"manufacturer\"}, tip: true})\n  ]\n});"
   },
   {
+    "objectID": "schedule/2024-07-15.html",
+    "href": "schedule/2024-07-15.html",
+    "title": "Summer Olypmics",
+    "section": "",
+    "text": "As the world gears up for the excitement and spirit of the Summer Olympics, we invite you to participate in our inaugural Mastery Quest contest! Find a dataset on the Summer Olympics and create a visualization, model, app, or other data-related output using the tool of your choice. The goal is to practice our data skills as a community, so even a simple graph that shows something interesting or leverages a new-to-you technology is worth sharing! We also encourage you to share how you created it and share links to any related code, notebook, or live output so others can learn and find inspiration from you.\nSee here for a few ways you could share your creation."
+  },
+  {
+    "objectID": "schedule/2024-07-15.html#prompt",
+    "href": "schedule/2024-07-15.html#prompt",
+    "title": "Summer Olypmics",
+    "section": "",
+    "text": "As the world gears up for the excitement and spirit of the Summer Olympics, we invite you to participate in our inaugural Mastery Quest contest! Find a dataset on the Summer Olympics and create a visualization, model, app, or other data-related output using the tool of your choice. The goal is to practice our data skills as a community, so even a simple graph that shows something interesting or leverages a new-to-you technology is worth sharing! We also encourage you to share how you created it and share links to any related code, notebook, or live output so others can learn and find inspiration from you.\nSee here for a few ways you could share your creation."
+  },
+  {
+    "objectID": "schedule/2024-07-15.html#guidelines",
+    "href": "schedule/2024-07-15.html#guidelines",
+    "title": "Summer Olypmics",
+    "section": "Guidelines",
+    "text": "Guidelines\n\nTheme: Your project should clearly reflect the Summer Olympics theme.\nTime Limit: You’ll have until 7/26 to submit.\nTechnology: You are free to use any tools or software you are comfortable with, such as D3.js, Tableau, Python (Matplotlib, Seaborn), R (ggplot2), or any other data visualization libraries and frameworks.\nCreativity: Think outside the box! Your project can be a visual medal tally, a comparison of past Olympic performances, a map of Olympic venues with historical data, or any other visualization that showcases the Olympic spirit."
+  },
+  {
+    "objectID": "schedule/2024-07-15.html#submission",
+    "href": "schedule/2024-07-15.html#submission",
+    "title": "Summer Olypmics",
+    "section": "Submission",
+    "text": "Submission\n\nFind the Summer Olympics thread in the Bletchley Discord #contests channel\nLeave a comment in the thread with the following:\n\nA screenshot of your creation\nYour project files or a link to your hosted project/repository\nA brief description (150-200 words) explaining your project’s concept and how it embodies the Summer Olympics theme\nMake sure to mention the technologies you used and any notable features or challenges you encountered during the development"
+  },
+  {
+    "objectID": "schedule/2024-07-15.html#judging-criteria",
+    "href": "schedule/2024-07-15.html#judging-criteria",
+    "title": "Summer Olypmics",
+    "section": "Judging Criteria",
+    "text": "Judging Criteria\n\nRelevance: How well does the project align with the Summer Olympics theme?\nCreativity: How original and innovative is the concept?\nFunctionality: Does the visualization convey the data effectively? Is it user-friendly?\nPresentation: How visually appealing is the design? Is the visualization clear and informative?"
+  },
+  {
+    "objectID": "schedule/2024-07-15.html#our-judge",
+    "href": "schedule/2024-07-15.html#our-judge",
+    "title": "Summer Olypmics",
+    "section": "Our Judge",
+    "text": "Our Judge\nMitch Beebe is the Director of Data & Analytics at Flatiron School and has been working in the field for over 10 years. His favorite Olympic sport is wrestling."
+  },
+  {
+    "objectID": "schedule/index.html",
+    "href": "schedule/index.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Summer Olypmics\n\n\n\n\n\nAs the world gears up for the excitement and spirit of the Summer Olympics, we invite you to participate in our inaugural Mastery Quest contest!\n\n\n\n\n\nJul 15, 2024\n\n\nBletchley\n\n\n\n\n\n\n\n\n\n\n\n\nComing Soon!\n\n\n\n\n\nTopic to be announced soon\n\n\n\n\n\nJul 29, 2024\n\n\nBletchley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Data Science Weekly Drills",
+    "title": "Data Science Mastery Quests",
     "section": "",
-    "text": "Data newcomers, hobbyists, and professionals are encouraged to create and share a data visualization, model, app, or other data-related output based on a weekly topic or shared dataset posted in [Discord channel], on [bletchley.org], and [social media]. Our goal is to foster our community to share tips, tricks, assistance, and inspiration for creating data output."
+    "text": "Data newcomers, hobbyists, and professionals are encouraged to create and share a data visualization, model, app, or other data-related output based on the topic or shared dataset posted in the Bletchley Discord #contests channel. Our goal is to foster our community to share tips, tricks, assistance, and inspiration for creating data output."
   },
   {
     "objectID": "index.html#who-what-when-where-why",
     "href": "index.html#who-what-when-where-why",
-    "title": "Data Science Weekly Drills",
+    "title": "Data Science Mastery Quests",
     "section": "",
-    "text": "Data newcomers, hobbyists, and professionals are encouraged to create and share a data visualization, model, app, or other data-related output based on a weekly topic or shared dataset posted in [Discord channel], on [bletchley.org], and [social media]. Our goal is to foster our community to share tips, tricks, assistance, and inspiration for creating data output."
+    "text": "Data newcomers, hobbyists, and professionals are encouraged to create and share a data visualization, model, app, or other data-related output based on the topic or shared dataset posted in the Bletchley Discord #contests channel. Our goal is to foster our community to share tips, tricks, assistance, and inspiration for creating data output."
   },
   {
     "objectID": "index.html#how",
     "href": "index.html#how",
-    "title": "Data Science Weekly Drills",
+    "title": "Data Science Mastery Quests",
     "section": "How",
-    "text": "How\n\nEach week a topic or dataset will be shared [Discord channel], on [bletchley.org], and [social media]\n\nFind a dataset related to the topic of the week\nIf a dataset is provided, download it\n\nExplore the data and create a visualization, model, app, or other data-related output, using the tool of your choice\nShare your creation\n\nThe goal is to practice and improve, so even a simple graph that shows something interesting or leverages a new package is worth sharing!\nPaste a screenshot of your creation to [Discord channel] using the hashtags [insert hashtags]\nWe also encourage you to share how you created it and link to any related code, notebook, or live output so others can learn and find inspiration from you. See here for a few examples.\n\nPrizes, badges, social media shoutouts for:\n\nBest data visualization\nMost interesting insight\nMost innovative creation"
+    "text": "How\n\nEvery other week a topic or dataset will be shared in #contests\n\nFind a dataset related to the topic of the week\nIf a dataset is provided, download it\n\nExplore the data and create a visualization, model, app, or other data-related output, using the tool of your choice\nShare your creation\n\nThe goal is to practice and improve, so even a simple graph that shows something interesting or leverages a new-to-you technology is worth sharing!\nPaste a screenshot of your creation to #contests\nWe also encourage you to share how you created it and link to any related code, notebook, or live output so others can learn and find inspiration from you. See here for a few examples.\n\nPrizes, badges, and social media shoutouts will be awarded based on the following criteria:\n\nRelevance: How well does the project align with the theme?\nCreativity: How original and innovative is the concept?\nFunctionality: Does the visualization convey the data effectively? Is it user-friendly?\nPresentation: How visually appealing is the design? Is the visualization clear and informative?"
   },
   {
     "objectID": "examples/index.html",
     "href": "examples/index.html",
     "title": "Examples",
     "section": "",
-    "text": "Assume the popular “mtcars” dataset was shared for the weekly data science drill. Below are some ways you could visualize and share your work so others can see how you did it."
+    "text": "Assume the popular “mtcars” dataset was shared for the Master Quest topic. Below are some ways you could visualize and share your work so others can see how you did it."
   },
   {
     "objectID": "examples/index.html#jupyter-notebooks",

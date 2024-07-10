@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Bletchley">
+<meta name="dcterms.date" content="2024-07-15">
+<meta name="description" content="As the world gears up for the excitement and spirit of the Summer Olympics, we invite you to participate in our inaugural Mastery Quest contest!">
 
-<title>Bletchley Mastery Quests - Examples</title>
+<title>Bletchley Mastery Quests - Summer Olypmics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +34,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../favicon.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -69,65 +70,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listings .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listings'] = new List('listing-listings', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -157,7 +100,7 @@ window.Quarto = {
 <span class="menu-text">Schedule</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../examples/index.html" aria-current="page"> 
+    <a class="nav-link" href="../examples/index.html"> 
 <span class="menu-text">Examples</span></a>
   </li>  
 </ul>
@@ -176,25 +119,44 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#jupyter-notebooks" id="toc-jupyter-notebooks" class="nav-link active" data-scroll-target="#jupyter-notebooks">Jupyter Notebooks</a></li>
-  <li><a href="#quarto" id="toc-quarto" class="nav-link" data-scroll-target="#quarto">Quarto</a></li>
-  <li><a href="#observable" id="toc-observable" class="nav-link" data-scroll-target="#observable">Observable</a></li>
+  <li><a href="#prompt" id="toc-prompt" class="nav-link active" data-scroll-target="#prompt">Prompt</a></li>
+  <li><a href="#guidelines" id="toc-guidelines" class="nav-link" data-scroll-target="#guidelines">Guidelines</a></li>
+  <li><a href="#submission" id="toc-submission" class="nav-link" data-scroll-target="#submission">Submission</a></li>
+  <li><a href="#judging-criteria" id="toc-judging-criteria" class="nav-link" data-scroll-target="#judging-criteria">Judging Criteria</a></li>
+  <li><a href="#our-judge" id="toc-our-judge" class="nav-link" data-scroll-target="#our-judge">Our Judge</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/flatiron-labs/ds-mastery-quests/blob/main/examples/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/flatiron-labs/ds-mastery-quests/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/flatiron-labs/ds-mastery-quests/blob/main/schedule/2024-07-15.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/flatiron-labs/ds-mastery-quests/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Examples</h1>
+<h1 class="title">Summer Olypmics</h1>
 </div>
 
+<div>
+  <div class="description">
+    As the world gears up for the excitement and spirit of the Summer Olympics, we invite you to participate in our inaugural Mastery Quest contest!
+  </div>
+</div>
 
 
 <div class="quarto-title-meta column-page-left">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Bletchley </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 15, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -204,73 +166,45 @@ window.Quarto = {
 </header>
 
 
-<p>Assume the popular “mtcars” dataset was shared for the Master Quest topic. Below are some ways you could visualize and share your work so others can see how you did it.</p>
-<section id="jupyter-notebooks" class="level2">
-<h2 class="anchored" data-anchor-id="jupyter-notebooks">Jupyter Notebooks</h2>
-<p>Simply <a href="https://github.com/flatiron-labs/ds-mastery-quests/blob/main/examples/jupyter-in-quarto.ipynb" target="_blank">link to it on GitHub</a></p>
+<section id="prompt" class="level2">
+<h2 class="anchored" data-anchor-id="prompt">Prompt</h2>
+<p>As the world gears up for the excitement and spirit of the Summer Olympics, we invite you to participate in our inaugural Mastery Quest contest! Find a dataset on the Summer Olympics and create a visualization, model, app, or other data-related output using the tool of your choice. The goal is to practice our data skills as a community, so even a simple graph that shows something interesting or leverages a new-to-you technology is worth sharing! We also encourage you to share how you created it and share links to any related code, notebook, or live output so others can learn and find inspiration from you.</p>
+<p>See <a href="../examples/">here</a> for a few ways you could share your creation.</p>
 </section>
-<section id="quarto" class="level2">
-<h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
-<p>Use <a href="https://quarto.org" target="_blank">Quarto</a> and GitHub pages to render your work as a static site (like this one!)</p>
-<div id="listing-listings" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1718942400000" data-listing-file-modified-sort="1720621177589" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="141">
-<a href="../examples/quarto-doc.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="quarto-doc_files/figure-html/unnamed-chunk-1-1.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Quarto Documents
-</h5>
-<div class="card-text listing-description">
-This page was created from a .qmd file!
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Bletchley
-</div>
-<div class="listing-date">
-Jun 21, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1718942400000" data-listing-file-modified-sort="1720621177588" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
-<a href="../examples/jupyter-in-quarto.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="jupyter-in-quarto_files/figure-html/cell-2-output-1.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Jupyter Notebooks in Quarto
-</h5>
-<div class="card-text listing-description">
-This page was created from a Jupyter notebook!
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Bletchley
-</div>
-<div class="listing-date">
-Jun 21, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<p>See <a href="https://quarto.org/docs/publishing/" target="_blank">documentation</a> for other ways to publish</p>
+<section id="guidelines" class="level2">
+<h2 class="anchored" data-anchor-id="guidelines">Guidelines</h2>
+<ul>
+<li><strong>Theme:</strong> Your project should clearly reflect the Summer Olympics theme.</li>
+<li><strong>Time Limit:</strong> You’ll have until 7/26 to submit.</li>
+<li><strong>Technology:</strong> You are free to use any tools or software you are comfortable with, such as D3.js, Tableau, Python (Matplotlib, Seaborn), R (ggplot2), or any other data visualization libraries and frameworks.</li>
+<li><strong>Creativity:</strong> Think outside the box! Your project can be a visual medal tally, a comparison of past Olympic performances, a map of Olympic venues with historical data, or any other visualization that showcases the Olympic spirit.</li>
+</ul>
 </section>
-<section id="observable" class="level2">
-<h2 class="anchored" data-anchor-id="observable">Observable</h2>
-<p>If JavaScript is your thing, try <a href="https://observablehq.com/@bletchleyinstitute-ws/observablejs-example" target="_blank">Observable notebooks</a> or use <a href="quarto-doc.html#observable-js"><code>ojs</code> computations in Quarto</a></p>
-
+<section id="submission" class="level2">
+<h2 class="anchored" data-anchor-id="submission">Submission</h2>
+<ol type="1">
+<li>Find the Summer Olympics thread in the Bletchley Discord <a href="https://discord.gg/SjGxcVTp">#contests</a> channel</li>
+<li>Leave a comment in the thread with the following:
+<ol type="a">
+<li>A screenshot of your creation</li>
+<li>Your project files or a link to your hosted project/repository</li>
+<li>A brief description (150-200 words) explaining your project’s concept and how it embodies the Summer Olympics theme</li>
+<li>Make sure to mention the technologies you used and any notable features or challenges you encountered during the development</li>
+</ol></li>
+</ol>
+</section>
+<section id="judging-criteria" class="level2">
+<h2 class="anchored" data-anchor-id="judging-criteria">Judging Criteria</h2>
+<ul>
+<li><strong>Relevance:</strong> How well does the project align with the Summer Olympics theme?</li>
+<li><strong>Creativity:</strong> How original and innovative is the concept?</li>
+<li><strong>Functionality:</strong> Does the visualization convey the data effectively? Is it user-friendly?</li>
+<li><strong>Presentation:</strong> How visually appealing is the design? Is the visualization clear and informative?</li>
+</ul>
+</section>
+<section id="our-judge" class="level2">
+<h2 class="anchored" data-anchor-id="our-judge">Our Judge</h2>
+<p>Mitch Beebe is the Director of Data &amp; Analytics at Flatiron School and has been working in the field for over 10 years. His favorite Olympic sport is wrestling.</p>
 
 
 </section>
@@ -690,4 +624,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/flatiron-labs/ds-mastery-quests/blob/main/examples/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/flatiron-labs/ds-mastery-quests/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/flatiron-labs/ds-mastery-quests/blob/main/schedule/2024-07-15.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/flatiron-labs/ds-mastery-quests/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

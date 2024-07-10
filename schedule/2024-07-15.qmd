@@ -1,0 +1,35 @@
+---
+title: "Summer Olypmics"
+description: "As the world gears up for the excitement and spirit of the Summer Olympics, we invite you to participate in our inaugural Mastery Quest contest!"
+author: "Bletchley"
+date: 2024-07-15
+image: "https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w1460/f_auto/primary/ufimmifputd3kkkvdgmb"
+---
+
+## Prompt
+As the world gears up for the excitement and spirit of the Summer Olympics, we invite you to participate in our inaugural Mastery Quest contest! Find a dataset on the Summer Olympics and create a visualization, model, app, or other data-related output using the tool of your choice. The goal is to practice our data skills as a community, so even a simple graph that shows something interesting or leverages a new-to-you technology is worth sharing! We also encourage you to share how you created it and share links to any related code, notebook, or live output so others can learn and find inspiration from you. 
+
+See [here](/examples/) for a few ways you could share your creation.
+
+## Guidelines
+- **Theme:** Your project should clearly reflect the Summer Olympics theme.
+- **Time Limit:** You’ll have until 7/26 to submit. 
+- **Technology:** You are free to use any tools or software you are comfortable with, such as D3.js, Tableau, Python (Matplotlib, Seaborn), R (ggplot2), or any other data visualization libraries and frameworks.
+- **Creativity:** Think outside the box! Your project can be a visual medal tally, a comparison of past Olympic performances, a map of Olympic venues with historical data, or any other visualization that showcases the Olympic spirit.
+
+## Submission
+1. Find the Summer Olympics thread in the Bletchley Discord [#contests](https://discord.gg/SjGxcVTp) channel
+2. Leave a comment in the thread with the following:
+    a) A screenshot of your creation
+    b) Your project files or a link to your hosted project/repository
+    c) A brief description (150-200 words) explaining your project's concept and how it embodies the Summer Olympics theme
+    d) Make sure to mention the technologies you used and any notable features or challenges you encountered during the development
+
+## Judging Criteria
+- **Relevance:** How well does the project align with the Summer Olympics theme?
+- **Creativity:** How original and innovative is the concept?
+- **Functionality:** Does the visualization convey the data effectively? Is it user-friendly?
+- **Presentation:** How visually appealing is the design? Is the visualization clear and informative?
+
+## Our Judge
+Mitch Beebe is the Director of Data & Analytics at Flatiron School and has been working in the field for over 10 years. His favorite Olympic sport is wrestling.

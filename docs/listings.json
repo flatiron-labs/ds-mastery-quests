@@ -1,5 +1,12 @@
 [
   {
+    "listing": "/schedule/index.html",
+    "items": [
+      "/schedule/2024-07-15.html",
+      "/schedule/2024-07-29.html"
+    ]
+  },
+  {
     "listing": "/examples/index.html",
     "items": [
       "/examples/quarto-doc.html",
