@@ -1,9 +1,9 @@
 ---
-title: "Summer Olypmics"
+title: "Summer Olympics"
 description: "As the world gears up for the excitement and spirit of the Summer Olympics, we invite you to participate in our inaugural Mastery Quest contest!"
 author: "Bletchley"
 date: 2024-07-15
-image: "https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w1460/f_auto/primary/ufimmifputd3kkkvdgmb"
+image: https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w1460/f_auto/primary/ufimmifputd3kkkvdgmb
 ---
 
 ## Prompt

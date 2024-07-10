@@ -3,8 +3,9 @@ project:
   output-dir: docs
 
 website:
-  title: "Bletchley Mastery Quests"
+  title: "Data Science Mastery Quests"
   navbar:
+    logo: logo.png
     left:
       - href: "index.qmd"
         text: "About"
@@ -12,6 +13,8 @@ website:
         text: "Schedule"
       - href: "examples/index.qmd"
         text: "Examples"
+      - href: "faq.qmd"
+        text: "FAQ"
   repo-url: https://github.com/flatiron-labs/ds-mastery-quests
   repo-actions: [source, issue]
   favicon: favicon.png
@@ -22,4 +25,3 @@ format:
       - flatly
       - styles.scss
     page-layout: full
-    toc: true

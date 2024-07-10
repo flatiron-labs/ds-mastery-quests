@@ -5,6 +5,9 @@ listing:
   contents: .
   sort: "title desc"
   type: grid
+format:
+  html:
+    toc: true
 ---
 
 Assume the popular “mtcars” dataset was shared for the Master Quest topic. Below are some ways you could visualize and share your work so others can see how you did it.

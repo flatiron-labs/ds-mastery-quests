@@ -1,0 +1,17 @@
+{
+  "hash": "0d110f942bebf1d7a8787b6767c4b2b8",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Quarto Documents\"\ndescription: \"This page was created from a .qmd file!\"\nauthor: \"Bletchley\"\ndate: 2024-06-21\ncode-fold: show\nexecute:\n  freeze: auto\n---\n\n\n[Quarto](https://quarto.org/) allows us to add computations from a variety of languages to our markdown-like documents.\n\n## R\nBelow is an R code block followed by its output:\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(ggplot2)\n\nmtcars |>\n    ggplot(aes(x = wt, y = mpg)) +\n    geom_point() +\n    labs(title = \"Miles per Gallon vs Weight\")\n```\n\n::: {.cell-output-display}\n![](quarto-doc_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\n## Python\nBelow is a Python code block followed by its output:\n\n::: {.cell}\n\n```{.python .cell-code}\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\nmtcars = pd.read_csv(\"https://raw.githubusercontent.com/plotly/datasets/master/mtcars.csv\")\n\nplt.scatter(x=mtcars.wt, y=mtcars.mpg)\nplt.title(\"Miles per Gallon vs Weight\")\nplt.show()\n```\n\n::: {.cell-output-display}\n![](quarto-doc_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n\n\nTo see a page created from a native Jupyter Notebook, see [here](jupyter-in-quarto.ipynb)!\n\n## Observable JS\nWe can even run JavaScript and add interactivity:\n\n```{ojs}\n//| code-fold: show\ndata = d3.csv(\"https://raw.githubusercontent.com/plotly/datasets/master/mtcars.csv\")\n\nPlot.plot({\n  subtitle: \"Miles per Gallon vs Weight\",\n  height: 300,\n  x: {domain: [1,5]},\n  y: {domain: [10,35]},\n  marks: [\n    Plot.ruleX([1]),\n    Plot.ruleY([10]),\n    Plot.dot(data, {x: \"wt\", y: \"mpg\", channels: {name: \"manufacturer\"}, tip: true})\n  ]\n});\n```\n",
+    "supporting": [
+      "quarto-doc_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,22 @@
+---
+title: "Frequently Asked Questions"
+---
+
+## Where can I find data?
+
+Finding data that will help you answer interesting questions is often one of the biggest challenges. If you're not sure where to start, try some of these resources:
+
+- Search Google with "(data OR api OR csv)" appended to your search, e.g. "olympics (data OR api OR csv)"
+- Try using Google's dedicated [Dataset Search](https://datasetsearch.research.google.com/)
+- Look for Wikipedia pages related to your topic. Many include data tables and data sources.
+- Search [Kaggle](https://www.kaggle.com/)
+- Many public organizations have data portals allowing access to their data
+    - [US Government](https://data.gov/)
+    - [City of New York](https://opendata.cityofnewyork.us/)
+    - [National Park Service](https://www.nps.gov/subjects/gisandmapping/tools-and-data.htm)
+
+
+## How do I think of an idea for a data visualization, model, or app?
+
+- Start with a question or curiosity you have about the topic and then try to find data that would help answer that question
+- Try finding inspiration from [r/DataIsBeautiful](https://www.reddit.com/r/dataisbeautiful/), the [NY Times](https://www.nytimes.com/spotlight/graphics), [538](https://projects.fivethirtyeight.com/), or past Mastery Quests

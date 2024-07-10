@@ -1,11 +1,11 @@
 ---
-title: "Data Science Mastery Quests"
+title: "About"
 ---
 
-## Who, What, When, Where, Why
+## Data Science Mastery Quests
 Data newcomers, hobbyists, and professionals are encouraged to create and share a data visualization, model, app, or other data-related output based on the topic or shared dataset posted in the Bletchley Discord [#contests](https://discord.gg/SjGxcVTp) channel. Our goal is to foster our community to share tips, tricks, assistance, and inspiration for creating data output.
 
-## How
+## Participating
 1. Every other week a topic or dataset will be shared in [#contests](https://discord.gg/SjGxcVTp)
     - Find a dataset related to the topic of the week
     - If a dataset is provided, download it

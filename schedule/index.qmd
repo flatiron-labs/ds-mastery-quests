@@ -4,9 +4,6 @@ listing:
   id: listings
   contents: .
   sort: "date"
-format:
-  html:
-    toc: false
 ---
 
 ::: {#listings}

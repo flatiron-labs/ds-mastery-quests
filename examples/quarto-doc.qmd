@@ -4,6 +4,8 @@ description: "This page was created from a .qmd file!"
 author: "Bletchley"
 date: 2024-06-21
 code-fold: show
+execute:
+  freeze: auto
 ---
 
 [Quarto](https://quarto.org/) allows us to add computations from a variety of languages to our markdown-like documents.
